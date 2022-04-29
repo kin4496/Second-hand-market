@@ -1,0 +1,117 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;;
+}
+
+header div.login_box{
+    display: flex;
+    flex-direction: row-reverse;
+}
+header div.login_box a{
+    text-decoration: none;
+}
+
+
+header div.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.logo_box{
+    display: flex;
+    align-items: center;
+}
+header div.logo_box img{
+    width: 50px;
+    height: 50px;
+}
+input#search_bar{
+    width: 300px;
+    height: 30px;
+}
+button.btn{
+    height: 35px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+nav.category_box{
+    width: 100%;
+}
+nav.category_box ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+nav.category_box ul li{
+    padding: 5px;
+    margin: 10px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+nav.category_box ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+aside{
+    position: absolute;
+    width: 120px;
+    top: 200px;
+    right: -150px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+}
+aside div.item_history{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+aside img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+footer{
+    margin: 30px;
+    width: 100%;
+}
+
+span.xx-large{
+    font-size: xx-large;
+}
+span.x-large{
+    font-size: x-large;
+}
+span.large{
+    font-size: large;
+}
+span.medium{
+    font-size:medium;
+}
+span.small{
+    font-size: small;
+}
+span.bold{
+    font-weight: bold;
+}
+span.black{
+    color: black;
+}
+span.lightgrey{
+    color: lightgrey;
+}
+span.grey{
+    color: grey;
+}
+span.white{
+    color: white;
+}
