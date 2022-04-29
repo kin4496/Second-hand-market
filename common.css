@@ -1,5 +1,5 @@
 body{
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
     position: relative;;
 }
@@ -93,4 +93,10 @@ span.black{
 }
 span.lightgrey{
     color: lightgrey;
+}
+span.grey{
+    color: grey;
+}
+span.white{
+    color: white;
 }
