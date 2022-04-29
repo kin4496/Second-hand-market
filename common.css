@@ -1,0 +1,71 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;;
+}
+
+header div.login_box{
+    display: flex;
+    flex-direction: row-reverse;
+}
+header div.login_box a{
+    text-decoration: none;
+}
+
+
+header div.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.logo_box{
+    display: flex;
+    align-items: center;
+}
+header div.logo_box img{
+    width: 50px;
+    height: 50px;
+}
+input#search_bar{
+    width: 300px;
+    height: 30px;
+}
+
+nav.category_box{
+    width: 100%;
+    background-color: pink;
+}
+nav.category_box ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    align-items: center;
+}
+nav.category_box ul li{
+    padding: 10px;
+}
+nav.category_box ul li a{
+    text-decoration: none;
+}
+
+aside{
+    position: absolute;
+    width: 150px;
+    top: 200px;
+    right: -200px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    align-items: center;
+}
+aside div.item_history{
+    background-color: pink;
+    
+}
+aside img{
+    width: 60px;
+    height: 60px;
+}
+
+footer{
+    background-color: lightgray;
+}
