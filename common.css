@@ -72,7 +72,8 @@ aside img{
 }
 
 footer{
-    background-color: lightgray;
+    margin: 30px;
+    width: 100%;
 }
 
 span.xx-large{
