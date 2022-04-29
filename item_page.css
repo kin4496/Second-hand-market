@@ -5,6 +5,10 @@ section.item_info{
 section.item_info div.item_meta_info{
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    margin: 20px;
+    width: 100%;
 }
 div.item_meta_info ul>li{
     color: lightgrey;
@@ -16,6 +20,7 @@ div.button_box button{
     color: white;
     font-weight: bold;
     font-size: medium;
+    cursor: pointer;
 }
 #contact_btn{
     background-color: orange;
@@ -26,4 +31,9 @@ div.button_box button{
 div.item_img_box img{
     width: 300px;
     height: 300px;
+}
+
+section.item_description{
+    border: 1px solid lightgrey;
+    padding: 20px;
 }
