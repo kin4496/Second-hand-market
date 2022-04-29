@@ -30,7 +30,12 @@ input#search_bar{
     width: 300px;
     height: 30px;
 }
-
+button.btn{
+    height: 35px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
 nav.category_box{
     width: 100%;
     background-color: pink;
