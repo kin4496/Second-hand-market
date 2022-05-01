@@ -1,0 +1,70 @@
+section#msg_page{
+    display: flex;
+}
+
+section#msg_box{
+    width: 30%;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+section.msg_section{
+    width: 70%;
+}
+article.msg_small{
+    border: 1px solid lightgrey;
+}
+
+section#msg_box div.from_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.msg_section{
+    padding: 10px;
+    max-height: 80%;
+}
+div.msg_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+div#msg_window{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+div.from_msg{
+    display: flex;
+    justify-content: column;
+}
+div.to_msg{
+    display: flex;
+    justify-content: flex-end;
+}
+span.msg{
+    padding: 5px 20px;
+    border-radius: 8px;
+    word-break: break-all;
+    margin: 5px;
+    max-width: 50%;
+}
+div.from_msg span{
+    background-color: white;
+}
+div.to_msg span{
+    background-color: yellow;
+}
+
+div.msg_input{
+    display: flex;
+}
+div.msg_input textarea{
+    width: 80%;
+    overflow: visible;
+}
+div.msg_input button{
+    width: 20%;
+}

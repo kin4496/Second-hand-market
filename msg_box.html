@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중고나라 for 경북대학교</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="msg_box.css">
+    <script defer src="msg_box.js"></script>
+</head>
+<body>
+    <header>
+        <div class="login_box"><a href=""><span class="small grey">로그인/회원가입</span></a></div>
+        <div class="header_box">
+            <div class="logo_box">
+                <img src="images/logo.jpg" alt="">
+                <span class="x-large bold">중고나라 for 경북대학교</span>
+            </div>
+            <div class="search_box">
+                <input type="text" id="search_bar">
+            </div>
+            <div class="user_box">
+                <button class="btn sell"><span class="medium">판매</span></button>
+                <button class="btn posting"><span class="medium">내 게시물</span></button>
+                <button class="btn message"><span class="medium">메세지</span></button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="category_box">
+        <ul>
+            <li><a href=""><span class="small">패션뷰티/의류</span></a></li>
+            <li><a href=""><span class="small">컴퓨터/주변기기</span></a></li>
+            <li><a href=""><span class="small">모바일/태블릿</span></a></li>
+            <li><a href=""><span class="small">도서/문구</span></a></li>
+            <li><a href=""><span class="small">쿠폰/티켓</span></a></li>
+            <li><a href=""><span class="small">기타</span></a></li>
+        </ul>
+    </nav>
+    <aside>
+        <div class="item_history">
+            <span class="medium bold">최근에 본 상품</span>
+            <a href=""><img src="images/recommandItem1.jpg" alt=""></a>
+            <a href=""><img src="images/example_img1.jpg" alt=""></a>
+        </div>
+    </aside>
+    <!-- start-->
+    <section id="msg_page">
+        <section id="msg_box">
+
+            <article class="msg_small">
+                <div class="from_info">
+                    <span class="bold large">Sugi</span>
+                    <span class="medium">Item</span>
+                </div>
+                <span class="recent_msg medium">Hello World!</span>
+            </article>
+
+            <article class="msg_small">
+                <div class="from_info">
+                    <span class="bold large">Insu</span>
+                    <span class="medium">Item</span>
+                </div>
+                <span class="recent_msg medium">Hello World!</span>
+            </article>
+        </section>
+        
+        <section class="msg_section">
+            <div class="msg_header">
+                <span id="msg_window_user" class="bold x-large">Insu</span>
+                <span id="msg_window_item" class="bold x-large lightgrey">Item</span>
+            </div>
+            <div class="msg_container">
+                <div id="msg_window">
+                    <div class="from_msg">
+                        <span class="from_msg msg">Hi</span>
+                    </div>
+                    <div class="to_msg">
+                        <span class="to_msg msg">Hddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddi</span>
+                    </div>
+                </div>
+                <div class="msg_input">
+                    <textarea id="input_msg" cols="30" rows="3"></textarea>
+                    <button id="send_btn">전송</button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- end-->
+    <footer>
+        <div class="developer_info_box">
+            <span class="medium bold">Made by Insu</span>
+            <div class="contact_info_box">
+                <ul>
+                    <li><span class="small">E-mail: kin4496@naver.com</span></li>
+                    <li><span class="small">Contact Number: 010-8235-4496</span></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
