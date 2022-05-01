@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>common</title>
-    <link rel="stylesheet" href="common.css">
+    <title>중고나라 for 경북대학교</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="item_page.css">
 </head>
+
 <body>
     <header>
         <div class="login_box"><a href=""><span class="small grey">로그인/회원가입</span></a></div>
@@ -32,16 +35,43 @@
             <li><a href=""><span class="small">컴퓨터/주변기기</span></a></li>
             <li><a href=""><span class="small">모바일/태블릿</span></a></li>
             <li><a href=""><span class="small">도서/문구</span></a></li>
+            <li><a href=""><span class="small">쿠폰/티켓</span></a></li>
             <li><a href=""><span class="small">기타</span></a></li>
         </ul>
     </nav>
     <aside>
-        <strong>최근에 본 상품</strong>
         <div class="item_history">
-            <img src="images/recommandItem1.jpg" alt="">
+            <span class="medium bold">최근에 본 상품</span>
+            <a href=""><img src="images/recommandItem1.jpg" alt=""></a>
+            <a href=""><img src="images/example_img1.jpg" alt=""></a>
         </div>
     </aside>
     <!-- start-->
+    <section class="item_info">
+        <div class="item_img_box">
+            <img src="images/example_img1.jpg" alt="">
+        </div>
+        <div class="item_meta_info">
+            <span class="bold x-large">Title</span>
+            <span class="bold large">Price <span class="bold x-large">2,500,000 원</span></span>
+            <ul>
+                <li>seller: <span class="small black">Insu</span></li>
+                <li>item status: <span class="small black">used</span></li>
+                <li>exchange: <span class="small black">Nope</span></li>
+                <li>negotiation: <span class="small black">Nope</span></li>
+            </ul>
+            <div class="button_box">
+                <button id="contact_btn">Contact</button>
+                <button id="buy_btn">Buy</button>
+            </div>
+        </div>
+    </section>
+    <section class="item_description">
+        <span class="x-large bold">Item Description</span>
+        <p>
+            This is macbook pro 2021 16inch.
+        </p>
+    </section>
     <!-- end-->
     <footer>
         <div class="developer_info_box">
@@ -55,4 +85,5 @@
         </div>
     </footer>
 </body>
+
 </html>

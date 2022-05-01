@@ -38,37 +38,46 @@ button.btn{
 }
 nav.category_box{
     width: 100%;
-    background-color: pink;
 }
 nav.category_box ul{
     display: flex;
     list-style-type: none;
-    padding: 0px;
     align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
 }
 nav.category_box ul li{
-    padding: 10px;
+    padding: 5px;
+    margin: 10px;
+    background-color: lightgrey;
+    border-radius: 5px;
 }
 nav.category_box ul li a{
     text-decoration: none;
+    color: black;
 }
 
 aside{
     position: absolute;
-    width: 150px;
+    width: 120px;
     top: 200px;
-    right: -200px;
+    right: -150px;
     border: 1px solid lightgrey;
+    border-radius: 5px;
     padding: 10px;
     align-items: center;
 }
 aside div.item_history{
-    background-color: pink;
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 aside img{
     width: 60px;
     height: 60px;
+    margin: 10px;
 }
 
 footer{

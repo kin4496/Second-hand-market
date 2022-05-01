@@ -1,0 +1,26 @@
+div.posting_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.posting_header h2{
+    margin: 0;
+}
+div.set_posting_title{
+    display: flex;
+    justify-content: space-between;
+}
+div.set_posting_category select{
+    margin: 10px;
+}
+input.wide{
+    width: 60%;
+}
+div.textarea_box{
+    align-items: center;
+    text-align: center;
+}
+textarea{
+    margin: 10px;
+    width: 90%;
+}
